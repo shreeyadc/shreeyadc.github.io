@@ -1446,10 +1446,11 @@ footer {
   color: #fff;
   padding: 25px 0;
   background: #0062d3;
+  font-size: 10px;
 }
 
 footer .copyright {
-  margin-bottom: 0.3rem;
+  margin-bottom: 0.1rem;
 }
 
 footer .credits {
