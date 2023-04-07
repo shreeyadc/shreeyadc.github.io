@@ -898,7 +898,7 @@ a:hover {
 .w-date {
   float: right;
   text-align: left;
-  position: absolute;
+  position: relative;
   left: 80%;
 }
 
