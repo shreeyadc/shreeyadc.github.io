@@ -894,18 +894,11 @@ a:hover {
   color: #0078ff;
 }
 
-.work-content .w-like {
-  font-size: 1.2rem;
-  color: #0078ff;
-  float: left;
-}
-
-.work-content .w-like a {
-  color: #0078ff;
-}
-
-.work-content .w-like .num-like {
-  font-size: 0.7rem;
+.w-date {
+  float: right;
+  text-align: left;
+  position: absolute;
+  left: 80%;
 }
 
 .w-title {
