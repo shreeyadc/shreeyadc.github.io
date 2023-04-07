@@ -267,7 +267,7 @@ a:hover {
   font-size: 3rem;
   border-radius: 50%;
   line-height: 1.55;
-  margin: 0 auto;
+  margin: 20px;
   text-align: center;
   box-shadow: 0 0 0 10px #0078ff;
   display: block;
@@ -986,7 +986,7 @@ a:hover {
 }
 
 .contact-mf {
-  margin-top: 4rem;
+  margin-top: 3rem;
 }
 
 @media (min-width: 767px) {
