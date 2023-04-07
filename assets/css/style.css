@@ -894,14 +894,13 @@ a:hover {
 .work-content .w-more .w-ctegory {
   color: #0078ff;
   float: right;
-  text-align: left;
-  margin-left: 50px;
 }
 
 .w-date {
   float: right;
   text-align: left;
-  margin-left: -100px;
+  margin-left: 100px;
+  margin-right: 1px;
 }
 
 .w-title {
