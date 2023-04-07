@@ -888,7 +888,7 @@ a:hover {
 
 .work-content .w-more {
   color: #4e4e4e;
-  font-size: 2rem;
+  font-size: 1rem;
 }
 
 .work-content .w-more .w-ctegory {
@@ -911,6 +911,10 @@ a:hover {
 
 .w-title {
   font-size: 1.2rem;
+}
+
+.w-date{
+  margin-right: 0px;
 }
 
 /*--------------------------------------------------------------
