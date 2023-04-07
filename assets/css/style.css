@@ -222,9 +222,9 @@ a:hover {
 }
 
 .socials .ico-circle {
-  height: 80px;
-  width: 80px;
-  font-size: 1.2rem;
+  height: 60px;
+  width: 60px;
+  font-size: 2rem;
   border-radius: 50%;
   margin: 0 0 0 0;
   box-shadow: 0 0 0 3px #0078ff;
@@ -262,8 +262,8 @@ a:hover {
 
 /*------/ Ico Circle /------*/
 .ico-circle {
-  height: 110px;
-  width: 110px;
+  height: 100px;
+  width: 100px;
   font-size: 3rem;
   border-radius: 50%;
   line-height: 1.55;
@@ -890,7 +890,7 @@ a:hover {
   font-size: 1rem;
 }
 
-.work-content .w-more .w-ctegory {
+.work-content .w-more .w-ctegory .w-date{
   color: #0078ff;
   padding-left: 50%;
 }
@@ -898,7 +898,7 @@ a:hover {
 .work-content .w-like {
   font-size: 1.2rem;
   color: #0078ff;
-  float: right;
+  float: left;
 }
 
 .work-content .w-like a {
