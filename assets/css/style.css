@@ -991,7 +991,7 @@ a:hover {
 
 @media (min-width: 767px) {
   .contact-mf .box-pl2 {
-    margin-top: 3rem;
+    margin-top: 5rem;
     padding-left: 0rem;
   }
 }
@@ -1082,8 +1082,7 @@ a:hover {
 .widget-tags ul li {
   display: inline-block;
   background-color: #0078ff;
-  padding: 0.2rem 0.6rem;
-  margin-bottom: 0.5rem;
+  padding: 0.5rem 0.5rem;
   border-radius: 15px;
 }
 
