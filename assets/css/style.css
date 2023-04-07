@@ -361,7 +361,7 @@ a:hover {
   opacity: 1;
 }
 
-/*------/ Prelaoder /------*/
+/*------/ Preloader /------*/
 #preloader {
   position: fixed;
   top: 0;
@@ -399,7 +399,7 @@ a:hover {
 /*------/ Button /------*/
 .button {
   display: inline-block;
-  padding: 0.3rem 0.6rem;
+  padding: 0.3rem 0.3rem;
   text-align: center;
   vertical-align: middle;
   -webkit-user-select: none;
@@ -892,7 +892,6 @@ a:hover {
 
 .work-content .w-more .w-ctegory {
   color: #0078ff;
-  padding-left: 50%;
 }
 
 .work-content .w-like {
