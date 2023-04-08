@@ -226,7 +226,7 @@ a:hover {
   width: 70px;
   font-size: 2.4rem;
   border-radius: 50%;
-  margin-bottom: 60px;
+  margin-bottom: 20px;
   box-shadow: 0 0 0 3px #0078ff;
   transition: all 500ms ease;
 }
@@ -272,7 +272,7 @@ a:hover {
   text-align: center;
   box-shadow: 0 0 0 10px #0078ff;
   display: block;
-  padding-bottom: 15px;
+  padding-bottom: 45px;
   padding-top: 15px;
 }
 
@@ -900,6 +900,7 @@ a:hover {
 .w-date {
   float: right;
   text-align: left;
+  padding-right: 0px;
 }
 
 .w-title {
