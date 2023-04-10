@@ -225,7 +225,7 @@ a:hover {
   height: 70px;
   width: 70px;
   font-size: 2.5rem;
-  border-radius: 40%;
+  border-radius: 50%;
   margin-bottom: 20px;
   box-shadow: 0 0 0 3px #0078ff;
   transition: all 500ms ease;
@@ -272,7 +272,7 @@ a:hover {
   text-align: center;
   box-shadow: 0 0 0 10px #0078ff;
   display: block;
-  padding-bottom: 50%;
+  padding-bottom: 40%;
   margin-bottom: 20px;
 }
 
