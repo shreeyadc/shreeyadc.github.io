@@ -273,6 +273,7 @@ a:hover {
   box-shadow: 0 0 0 10px #0078ff;
   display: block;
   padding-bottom: 50%;
+  padding-top: 50%;
   margin-bottom: 20px;
 }
 
