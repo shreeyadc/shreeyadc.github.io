@@ -226,7 +226,7 @@ a:hover {
   width: 70px;
   font-size: 2.5rem;
   border-radius: 50%;
-  margin-bottom: 20px;
+  margin-bottom: 12px;
   box-shadow: 0 0 0 3px #0078ff;
   transition: all 500ms ease;
 }
@@ -272,7 +272,7 @@ a:hover {
   text-align: center;
   box-shadow: 0 0 0 10px #0078ff;
   display: block;
-  padding-bottom: 15%;
+  padding-bottom: 10%;
   margin-bottom: 20px;
 }
 
@@ -985,7 +985,7 @@ a:hover {
 .contact-mf {
   margin-top: 3rem;
   margin-right: 0;
-  padding-right: 0%;
+  padding-right: 0;
 }
 
 @media (min-width: 767px) {
@@ -997,49 +997,6 @@ a:hover {
   }
 }
 
-/*------/ Comments /------*/
-.box-comments .list-comments li {
-  padding-bottom: 40px;
-}
-
-.box-comments .list-comments .comment-avatar {
-  display: table-cell;
-  vertical-align: top;
-}
-
-.box-comments .list-comments .comment-avatar img {
-  width: 80px;
-  height: 80px;
-}
-
-.box-comments .list-comments .comment-author {
-  font-size: 1.3rem;
-}
-
-@media (min-width: 768px) {
-  .box-comments .list-comments .comment-author {
-    font-size: 1.5rem;
-  }
-}
-
-.box-comments .list-comments .comment-details {
-  display: table-cell;
-  vertical-align: top;
-  padding-left: 25px;
-}
-
-.box-comments .list-comments a {
-  color: #0078ff;
-}
-
-.box-comments .list-comments span {
-  color: #1e1e1e;
-  font-style: italic;
-}
-
-.box-comments .comment-children {
-  margin-left: 40px;
-}
 
 /*------/ Sidebar /------*/
 .widget-sidebar .sidebar-title {
