@@ -226,7 +226,7 @@ a:hover {
   width: 70px;
   font-size: 2.5rem;
   border-radius: 50%;
-  margin-bottom: 12px;
+  margin-bottom: 10px;
   box-shadow: 0 0 0 3px #0078ff;
   transition: all 500ms ease;
 }
@@ -979,7 +979,6 @@ a:hover {
 --------------------------------------------------------------*/
 .footer-paralax {
   padding: 0 0 0 0;
-  margin-right: 0;
 }
 
 .contact-mf {
@@ -993,7 +992,7 @@ a:hover {
     margin-top: 5rem;
     padding-left: 0rem;
     margin-right: 0;
-    padding-right: 0%;
+    padding-right: 0;
   }
 }
 
@@ -1004,6 +1003,7 @@ a:hover {
   font-weight: 600;
   border-left: 5px solid #0078ff;
   padding-left: 15px;
+  padding-right: 0px;
   text-transform: uppercase;
   margin-bottom: 1.5rem;
 }
@@ -1019,6 +1019,7 @@ a:hover {
   width: 10px;
   height: 1px;
   left: 0;
+  right: 0;
   background-color: #0078ff;
   top: 20px;
 }
