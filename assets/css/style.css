@@ -872,7 +872,7 @@ a:hover {
 }
 
 .work-box:hover img {
-  transform: scale(1.3);
+  transform: scale(1.25);
 }
 
 .work-img {
@@ -901,6 +901,7 @@ a:hover {
   float: right;
   text-align: left;
   padding-right: 0px;
+  margin-right: 0px;
 }
 
 .w-title {
