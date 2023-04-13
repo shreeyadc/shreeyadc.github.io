@@ -900,8 +900,8 @@ a:hover {
   float: right;
   width:380px;
   word-wrap:break-word;
-  padding-left: 0px;
-  padding-right: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
   display: block;
   white-space: normal;
 }
