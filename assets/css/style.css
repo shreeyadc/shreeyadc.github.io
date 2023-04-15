@@ -898,10 +898,10 @@ a:hover {
 
 .w-date {
   float: right;
-  width:500px;
+  width:400px;
   word-wrap:break-word;
   margin-right:0;
-  margin-left: 5%;
+  margin-left: 40%;
   margin-right: -55%;
   white-space: normal;
 }
