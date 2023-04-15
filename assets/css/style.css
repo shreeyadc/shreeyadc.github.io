@@ -897,9 +897,9 @@ a:hover {
 }
 
 .w-date {
-  max-width: 400px;
+  max-width: 450px;
   word-wrap:break-word;
-  margin-right: -100%;
+  margin-right: -200%;
   white-space: normal;
 }
 
