@@ -897,10 +897,7 @@ a:hover {
 }
 
 .w-date {
-  float: right;
-  width:400px;
   word-wrap:break-word;
-  margin-left: 45%;
   margin-right: -55%;
   white-space: normal;
 }
