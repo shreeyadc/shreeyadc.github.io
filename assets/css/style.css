@@ -902,7 +902,7 @@ a:hover {
   word-wrap:break-word;
   margin-right:0;
   padding-left: 85%;
-  padding-right: -80%;
+  margin-right: -20%;
   white-space: normal;
 }
 
