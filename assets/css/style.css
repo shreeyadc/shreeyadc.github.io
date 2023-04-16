@@ -240,6 +240,10 @@ a:hover {
   transition: all 500ms ease;
 }
 
+.linkedin .github .google {
+  margin-right: 40px;
+}
+
 /*------/ Ul resect /------*/
 .ul-resect,
 .widget-tags ul,
