@@ -223,8 +223,8 @@ a:hover {
 
 .socials .ico-circle {
   position: absolute;
-  margin-right: 200px;
-  margin-bottom: 100px;
+  right: 200px;
+  bottom: 100px;
   height: 70px;
   width: 70px;
   font-size: 2.5rem;
@@ -275,8 +275,6 @@ a:hover {
   box-shadow: 0 0 0 10px #0078ff;
   display: block;
   padding-top: 0.3%;
-  margin-right: 200px;
-  margin-bottom: 100px;
 }
 
 /*------/ Owl Carousel /------*/
