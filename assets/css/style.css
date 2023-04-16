@@ -244,8 +244,16 @@ a:hover {
 }
 
 .linkedin .github .google {
-  padding-left: 50px;
+  padding-left: 100px;
+  margin-left: 100px;
+}
+.github {
+  padding-left: 150px;
   margin-left: 150px;
+}
+.google {
+  padding-left: 200px;
+  margin-left: 200px;
 }
 
 /*------/ Ul resect /------*/
