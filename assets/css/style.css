@@ -219,6 +219,9 @@ a:hover {
 
 .socials ul li {
   display: inline-block;
+  
+  margin-right: 100px;
+  margin-left: 100px;
 }
 
 .socials .ico-circle {
@@ -263,6 +266,7 @@ a:hover {
 .list-ico span {
   color: #0078ff;
   margin-right: 100px;
+  margin-left: 100px;
 }
 
 /*------/ Ico Circle /------*/
@@ -276,6 +280,9 @@ a:hover {
   box-shadow: 0 0 0 10px #0078ff;
   display: block;
   padding-top: 0.3%;
+  
+  margin-right: 100px;
+  margin-left: 100px;
 }
 
 /*------/ Owl Carousel /------*/
