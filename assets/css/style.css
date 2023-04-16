@@ -222,6 +222,8 @@ a:hover {
 }
 
 .socials .ico-circle {
+  position: absolute;
+  margin-right: -10%;
   height: 70px;
   width: 70px;
   font-size: 2.5rem;
