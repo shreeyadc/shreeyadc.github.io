@@ -227,7 +227,7 @@ a:hover {
 .socials .ico-circle {
   position: absolute;
   left: 45px;
-  bottom: 50px;
+  bottom: 45px;
   height: 70px;
   width: 70px;
   font-size: 2.5rem;
@@ -244,14 +244,17 @@ a:hover {
 }
 
 .socials .ico-circle .linkedin {
+  display: inline-block;
   padding-left: 0px;
   margin-left: 0px;
 }
 .socials .ico-circle .github {
+  display: inline-block;
   padding-left: 100px;
   margin-left: 100px;
 }
 .socials .ico-circle .google {
+  display: inline-block;
   padding-left: 200px;
   margin-left: 200px;
 }
