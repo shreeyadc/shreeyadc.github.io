@@ -243,15 +243,15 @@ a:hover {
   transition: all 500ms ease;
 }
 
-.linkedin {
+.socials .ico-circle .linkedin {
+  padding-left: 0px;
+  margin-left: 0px;
+}
+.socials .ico-circle .github {
   padding-left: 100px;
   margin-left: 100px;
 }
-.github {
-  padding-left: 150px;
-  margin-left: 150px;
-}
-.google {
+.socials .ico-circle .google {
   padding-left: 200px;
   margin-left: 200px;
 }
@@ -288,9 +288,6 @@ a:hover {
   box-shadow: 0 0 0 10px #0078ff;
   display: block;
   padding-top: 0.3%;
-  
-  margin-right: 100px;
-  margin-left: 100px;
 }
 
 /*------/ Owl Carousel /------*/
