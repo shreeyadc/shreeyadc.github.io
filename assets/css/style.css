@@ -223,7 +223,7 @@ a:hover {
 
 .socials .ico-circle {
   position: absolute;
-  margin-right: -10%;
+  margin-right: 10%;
   height: 70px;
   width: 70px;
   font-size: 2.5rem;
@@ -273,7 +273,7 @@ a:hover {
   text-align: center;
   box-shadow: 0 0 0 10px #0078ff;
   display: block;
-  padding-bottom: 1%;
+  padding-top: 1%;
   margin-bottom: 20px;
 }
 
