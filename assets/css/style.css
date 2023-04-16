@@ -241,6 +241,8 @@ a:hover {
 }
 
 .linkedin .github .google {
+  padding-right: 40px;
+  right: 40px;
   margin-right: 40px;
 }
 
@@ -253,9 +255,6 @@ a:hover {
 .list-ico,
 .socials ul {
   list-style: none;
-  padding-left: 0;
-  padding-right: 0;
-  margin-bottom: 0;
 }
 
 .list-ico {
@@ -264,13 +263,14 @@ a:hover {
 
 .list-ico span {
   color: #0078ff;
-  margin-right: 10px;
+  margin-right: 100px;
 }
 
 /*------/ Ico Circle /------*/
 .ico-circle {
   height: 100px;
   width: 100px;
+  margin: 20px;
   font-size: 3.3rem;
   border-radius: 50%;
   line-height: 1.55;
