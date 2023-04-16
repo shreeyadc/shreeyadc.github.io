@@ -241,9 +241,9 @@ a:hover {
 }
 
 .linkedin .github .google {
-  padding-right: 50px;
-  right: 100px;
-  margin-right: 150px;
+  padding-left: 50px;
+  left: 100px;
+  margin-left: 150px;
 }
 
 /*------/ Ul resect /------*/
