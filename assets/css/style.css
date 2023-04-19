@@ -892,7 +892,7 @@ a:hover {
 .w-date {
   position: relative;
   display: inline-block;
-  right: -100px;
+  width: 400px;
 }
 
 .w-title {
