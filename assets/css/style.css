@@ -1030,7 +1030,7 @@ a:hover {
 }
 
 .widget-sidebar .list-sidebar li {
-  position: relative;
+  position: absolute;
   padding: 6px 0 6px 24px;
 }
 
