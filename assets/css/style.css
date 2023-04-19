@@ -244,18 +244,21 @@ a:hover {
 }
 
 .socials .ico-circle .linkedin {
+  position: absolute;
   display: block;
   float: left;
   padding-left: 0px;
   margin-left: 0px;
 }
 .socials .ico-circle .github {
+  position: absolute;
   display: block;
   float: left;
   padding-left: 100px;
   margin-left: 100px;
 }
 .socials .ico-circle .google {
+  position: absolute;
   display: block;
   float: left;
   padding-left: 200px;
