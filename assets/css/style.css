@@ -247,22 +247,19 @@ a:hover {
   position: absolute;
   display: inline;
   float: left;
-  padding-left: 0px;
-  margin-left: 0px;
+  left: 0px;
 }
 .github {
   position: absolute;
   display: inline;
   float: left;
-  padding-left: 100px;
-  margin-left: 100px;
+  left: 100px;
 }
 .google {
   position: absolute;
   display: inline;
   float: left;
-  padding-left: 200px;
-  margin-left: 200px;
+  left: 200px;
 }
 
 /*------/ Ul resect /------*/
