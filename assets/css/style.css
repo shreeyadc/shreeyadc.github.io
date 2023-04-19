@@ -921,10 +921,9 @@ a:hover {
 }
 
 .w-date {
-  position: absolute;
+  position: relative;
   display: inline-block;
-  max-width: 450px;
-  margin-right: -200%;
+  width: 100%;
 }
 
 .w-title {
