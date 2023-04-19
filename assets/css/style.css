@@ -247,21 +247,21 @@ a:hover {
   display: inline;
   float: left;
   left: 0px;
-  bottom: 1%;
+  bottom: 0.5%;
 }
 .github {
   position: absolute;
   display: inline;
   float: left;
   left: 100px;
-  bottom: 1%;
+  bottom: 0.5%;
 }
 .google {
   position: absolute;
   display: inline;
   float: left;
   left: 200px;
-  bottom: 1%;
+  bottom: 0.5%;
 }
 
 /*------/ Ul resect /------*/
@@ -295,7 +295,7 @@ a:hover {
   text-align: center;
   box-shadow: 0 0 0 10px #0078ff;
   display: block;
-  padding-top: 0.25%;
+  padding-top: 0.35%;
 }
 
 /*------/ Owl Carousel /------*/
