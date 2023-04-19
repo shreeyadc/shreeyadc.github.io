@@ -892,8 +892,8 @@ a:hover {
 .w-date {
   position: relative;
   display: inline-block;
-  max-width: 390px;
-  width: 150%;
+  max-width: 400px;
+  width: 152%;
 }
 
 .w-title {
