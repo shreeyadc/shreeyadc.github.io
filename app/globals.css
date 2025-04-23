@@ -1,0 +1,79 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=SF+Pro+Text:wght@400;600;700&display=swap');
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  font-family: 'SF Pro Text', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  background: var(--background);
+  color: var(--foreground);
+  font-weight: 0;
+  background: #101218;
+}
+
+.profile-image {
+  border-radius: 50%;
+  border: 3px solid #ffffff;
+  box-shadow: 0 0 10px rgba(208, 255, 250, 0.5), 0 0 20px rgba(197, 255, 249, 0.4);
+  transition: all 0.3s ease;
+}
+
+/* Hover Effect for Image */
+.profile-image:hover {
+  transform: scale(1.02); /* Slight zoom effect */
+  box-shadow: 0 0 15px rgba(195, 255, 249, 0.7), 0 0 30px rgba(195, 255, 249, 0.5), 0 0 40px rgba(89, 110, 174, 0.462);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.home-section p {
+  color: #ffffff;
+}
+
+.homepage-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+
+@keyframes cosmicGlow {
+  0% { background-position: 25% 50%; }
+  50% { background-position: 75% 50%; }
+  100% { background-position: 25% 50%; }
+}
+
+.text-shadow-glow {
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.5), 0 0 3px rgba(255, 255, 255, 0.3);
+}
+
+.homepage-image-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("/bg-1.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: -1;
+  pointer-events: none;
+  opacity: 0.9;
+  filter: brightness(0.7);
+}
+
+.cursor-heart {
+  cursor: url("/heart.png") 16 16, pointer;
+}
