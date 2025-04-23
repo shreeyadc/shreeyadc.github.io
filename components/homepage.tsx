@@ -23,7 +23,7 @@ const Homepage = () => {
             Hey! I'm Shreeya
           </h1>
           <p className="text-lg text-gray-400">
-            I'm a Systems Design Engineering student at the University of Waterloo passionate about leveraging tech for social good. I'm interested software development, product management, and new experiences that spark my curiosity! In my free time, you'll find me working on new projects, practicing dance, biking, or painting.
+            I'm a Systems Design Engineering student at the University of Waterloo passionate about leveraging tech for social good. I'm interested software development, product management, and emerging tech! In my free time, you'll find me working on new projects, practicing dance, biking, or painting. Feel free to reach out, I'd love to chat or discuss opportunities!
           </p>
 
           <div className="flex gap-4 mt-6">
