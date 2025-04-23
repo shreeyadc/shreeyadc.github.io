@@ -4,7 +4,7 @@ const isProd = process.env.NODE_ENV === 'production';
 
 const nextConfig: NextConfig = {
   output: 'export',
-  assetPrefix: isProd ? '/your-repo-name/' : '',
+  assetPrefix: isProd ? 'shreeyadc.github.io' : '',
   images: {
     unoptimized: true,
   },
