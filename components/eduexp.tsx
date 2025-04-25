@@ -188,7 +188,7 @@ export const experiences = [
   {
     role: "Founder & President",
     company: "A.C.E. The Future",
-    time: "Jan 2023 - Sept 2024",
+    time: "Jan 2022 - Jul 2024",
     description: "Established a student-led organization leading emerging technology talks, webinars, blogs, and workshops with guest speakers from Apple and Stanford that impacted youth across 20+ countries. Led and empowered a team of 16 individuals in content writing, event planning, external relations, and graphic design. Featured in Ignite Fair, Canada’s largest youth-run volunteer fair, with 900+ attendees",
     icon: "/A.C.E.png",
     link: "https://acethefuture.wixsite.com/acethefuture"
@@ -196,14 +196,14 @@ export const experiences = [
   {
     role: "Podcast Co-host",
     company: "Project Tech Careers",
-    time: "Jan 2023 - Sept 2024",
+    time: "Dec 2022 - Aug 2024",
     description: "Interviewed guest speakers, capturing their journeys and experiences to create compelling podcast episodes released on Spotify; educated and inspired high school students aiming to pursue a career in tech",
     icon: "/ptclogo.jpeg",
   },
   {
     role: "Web Developer",
     company: "Prospective Medical Professionals",
-    time: "Jan 2023 - Sept 2024",
+    time: "Jan 2022 - Aug 2024",
     description: "Redesigned PuMP’s national website using HTML, CSS, and Javascript, increasing reach to 10,000+ site visitors",
     icon: "/pumplogo.jpeg",
   },
