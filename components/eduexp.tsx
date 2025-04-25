@@ -175,14 +175,14 @@ export const experiences = [
     role: "Software Developer",
     company: "Reality Labs",
     time: "Feb 2025 - Present",
-    description: "Game Development: Developed a Unity “Roll a Ball” game with C#, implementing custom functionality and UI for an interactive experience. Mahine Learning: Built a color classification neural network in PyTorch with 99.5% accuracy, using synthetic data and Binary Cross-Entropy loss. Backend Development: Designing API key generation and database integration for secure pairing token authentication for the Humanoid Robot Project",
+    description: "Game Development: Developed a Unity “Roll a Ball” game with C#, implementing custom functionality and UI for an interactive experience. Machine Learning: Built a colour classification neural network in PyTorch with 99.5% accuracy, using synthetic data and Binary Cross-Entropy loss. Backend Development: Designing API key generation and database integration for secure pairing token authentication for the Humanoid Robot Project",
     icon: "/realityLabs.jpeg",
   },
   {
     role: "eLearning Developer",
     company: "University of Waterloo",
     time: "Jan 2025 - Apr 2025",
-    description: "Enhanced learning platforms for 250+ students by resolving 25+ web QA issues, optimizing JavaScript components, and co-leading web development workshops. Automated curriculum analysis by 40% with a Node.js/JavaScript tool tracking H5P activities, media metrics, and keywords across asynchronous courses. Built 10+ scalable UI components to modernize Microsoft and WIL programs, elevating accessibility, responsiveness, and interactivity across devices. Pioneered AI innovation, pitching an AI coach platform and piloting AI tools like InStage to advance digital learning experiences",
+    description: "Enhanced Brightspace courses for 250+ students by resolving 25+ web QA issues, optimizing JavaScript components, and co-leading web development workshops. Automated curriculum analysis by 40% with a Node.js/JavaScript tool tracking H5P activities, media metrics, and keywords across asynchronous courses. Built 10+ scalable UI components to modernize Microsoft and WIL programs, elevating accessibility, responsiveness, and interactivity across devices. Pioneered AI innovation, pitching an AI coach platform and piloting AI tools like InStage to advance digital learning experiences",
     icon: "/uwaterloo.png",
   },
   {
