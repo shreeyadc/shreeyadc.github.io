@@ -63,7 +63,7 @@ const projects = [
     description:
       "An interactive app that aims to stop cyberbullying. \n🥇 1st place for UWaterloo's Hi5 Health Informatics Challenge, and turned the idea into an app during a co-op course in partnership with Apple Canada!",
     link: "https://shreeyadc.github.io/hi5-challenge/",
-    github: "https://github.com/shreeyadc/cyberstop",
+    github: "https://github.com/shreeyadc/Cyber-Stop",
     images: ["/cyberstopapp.png"],
     keyFeatures: [
       "A report tool to report cyberbullying incidents",
