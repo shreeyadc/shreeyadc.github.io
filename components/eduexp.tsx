@@ -223,7 +223,7 @@ const educationData = [
     institution: "University of Waterloo",
     year: "2025–2029 (Expected)",
     description: "President's Scholarship of Distinction",
-    skills: ["Digital Computation (C++)", "SOLIDWORKS", "Data structures and algorithms"],
+    skills: ["Digital Computation (C++)", "SOLIDWORKS", "Data structures and algorithms", "Linear Algebra", "Digital Systems"],
     image: "/uwaterloo.png",
   },
 ];
