@@ -57,6 +57,21 @@ const projects = [
     ],
   },
   {
+    title: "Library System Store",
+    image: "/library-system.png",
+    tech: ["C++"],
+    description:
+      "A program simulating a real Library System that allows managing a collection of books and library users with the functionality to add, remove, and advanced search, along with storing and displaying user information. \n★ SYDE 121 final project",
+    link: "",
+    github: "https://github.com/19prishpat/Library-System-Store/",
+    images: ["/library-prj.png"],
+    keyFeatures: [
+      "Perform advanced book searches by title, author, or genre",
+      "Display a list of all books and student + teacher user details",
+      "Add and remove books from the system",
+    ],
+  },
+  {
     title: "CyberStop",
     image: "/cyberstop.png",
     tech: ["Swift", "Xcode", "Prototyping"],
