@@ -64,7 +64,7 @@ const projects = [
       "A program simulating a real Library System that allows managing a collection of books and library users with the functionality to add, remove, and advanced search, along with storing and displaying user information. \n★ SYDE 121 final project",
     link: "",
     github: "https://github.com/19prishpat/Library-System-Store/",
-    images: ["/library-prj.png"],
+    images: [""],
     keyFeatures: [
       "Perform advanced book searches by title, author, or genre",
       "Display a list of all books and student + teacher user details",
@@ -259,18 +259,20 @@ export default function Projects() {
 
                   <h3 className="text-2xl font-bold">{project.title}</h3>
 
-                  <div className="w-full flex justify-center">
-                    <div className="w-[80%] max-w-[500px] h-auto overflow-hidden rounded-lg border border-gray-200">
-                      <Image
-                        src={project.images[0]}
-                        alt="Project Screenshot"
-                        width={610}
-                        height={350}
-                        className="w-full h-auto object-cover"
-                        loading="lazy"
-                      />
+                  {project.images[0] && (
+                    <div className="w-full flex justify-center">
+                      <div className="w-[80%] max-w-[500px] h-auto overflow-hidden rounded-lg border border-gray-200">
+                        <Image
+                          src={project.images[0]}
+                          alt="Project Screenshot"
+                          width={610}
+                          height={350}
+                          className="w-full h-auto object-cover"
+                          loading="lazy"
+                        />
+                      </div>
                     </div>
-                  </div>
+                  )}
 
                   <div>
                     <h4 className="font-semibold mb-2">Key Features</h4>
