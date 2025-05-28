@@ -28,14 +28,6 @@ const Homepage = () => {
 
           <div className="flex gap-4 mt-6">
             <a
-              href="/pdf/Shreeya-Champaneri-Resume.pdf"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="bg-white text-black px-6 py-2 rounded-full hover:bg-gray-300 hover:scale-108 transition-transform duration-300"
-            >
-              Resume
-            </a>
-            <a
               href="#contact"
               className="border border-white px-6 py-2 rounded-full hover:bg-neutral-900 hover:scale-108 transition-transform duration-300"
             >
