@@ -182,7 +182,7 @@ export const experiences = [
     role: "eLearning Developer",
     company: "University of Waterloo",
     time: "Jan 2025 - Apr 2025",
-    description: "Enhanced Brightspace courses for 250+ students by resolving 25+ web QA issues, optimizing JavaScript components, and co-leading web development workshops. Automated curriculum analysis by 40% with a Node.js/JavaScript tool tracking H5P activities, media metrics, and keywords across asynchronous courses. Built 10+ scalable UI components to modernize Microsoft and WIL programs, elevating accessibility, responsiveness, and interactivity across devices. Pioneered AI innovation, pitching an AI coach platform and piloting AI tools like InStage to advance digital learning experiences",
+    description: "Engineered a Node.js backend data automation tool to track 10+ course KPIs, reducing manual analysis time by 60%. Executed cross-platform QA testing and debugging in Agile sprints for Brightspace LMS components, resolving 25+ UI/UX issues across mobile and desktop, enhancing the learning experience for 500+ students. Developed and deployed 20+ responsive web components and WCAG-compliant learning modules using HTML, CSS, and JavaScript, enhancing accessibility and engagement across Microsoft Azure AI, WEA, WIL, and PD courses. Co-led an HTML/CSS workshop for WeAccelerate learners, teaching web development skills and fostering collaboration.",
     icon: "/uwaterloo.png",
   },
   {
