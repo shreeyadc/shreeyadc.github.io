@@ -168,7 +168,7 @@ export const experiences = [
     role: "Ground Station Software Developer",
     company: "UW Orbital",
     time: "March 2025 - Present",
-    description: "Backend Development: Implemented data validation and created POST/DELETE API endpoints for command management using FastAPI, ensuring structured data and improving API reliability. Logging & Monitoring: Developed logging middleware to capture API request details and execution time, enhancing debugging and system monitoring. Testing & Debugging: Ensured backend functionality with 100% test pass rate using Pytest, focusing on data validation and API response accuracy",
+    description: "Backend Development: Implemented data validation and created CRUD API endpoints for command management using FastAPI, ensuring structured data and improving API reliability. Logging & Monitoring: Developed logging middleware to capture API request details and execution time, enhancing debugging and system monitoring. Testing & Debugging: Ensured backend functionality with 100% test pass rate using Pytest, focusing on data validation and API response accuracy",
     icon: "/uworbital.jpeg",
   },
   {
@@ -182,7 +182,7 @@ export const experiences = [
     role: "eLearning Developer",
     company: "University of Waterloo",
     time: "Jan 2025 - Apr 2025",
-    description: "Engineered a Node.js backend data automation tool to track 10+ course KPIs, reducing manual analysis time by 60%. Executed cross-platform QA testing and debugging in Agile sprints for Brightspace LMS components, resolving 25+ UI/UX issues across mobile and desktop, enhancing the learning experience for 500+ students. Developed and deployed 20+ responsive web components and WCAG-compliant learning modules using HTML, CSS, and JavaScript, enhancing accessibility and engagement across Microsoft Azure AI, WEA, WIL, and PD courses. Co-led an HTML/CSS workshop for WeAccelerate learners, teaching web development skills and fostering collaboration",
+    description: "Engineered a Node.js backend data automation tool to track 10+ course KPIs, reducing manual analysis time by 60%. Executed cross-platform QA testing and debugging in Agile sprints for Brightspace LMS components, resolving 25+ UI/UX issues across mobile and desktop, enhancing the learning experience for 1000+ students. Deployed 20+ responsive web components and WCAG-compliant learning modules using HTML, CSS, and JavaScript, enhancing accessibility and engagement across courses like Microsoft Azure AI. Co-led an HTML/CSS workshop, teaching web development skills through collaborative coding sessions",
     icon: "/uwaterloo.png",
   },
   {
@@ -209,9 +209,9 @@ export const experiences = [
   },
   {
     role: "iOS Developer",
-    company: "Our Wave Hub x Apple Canada",
+    company: "Apple Canada x Our Wave Hub",
     time: "Summer 2022",
-    description: "Developed an anti-cyberbullying iOS app using Swift and Xcode, implementing the Engineering Design Process and SDLC. Pitched to a panel of Apple executives and integrated their feedback to enhance features and improve user experience",
+    description: "Developed an iOS app in Swift/Xcode to combat cyberbullying, featuring anonymous incident reporting, digital well-being tools, and support resources; earned 1st Place at UWaterloo’s Health Informatics Challenge. Developed the app end-to-end using Agile practices, full SDLC, and mobile lifecycle principles; conducted user research, prototyped features, and iterated UI/UX through stakeholder interviews and usability testing. Pitched prototypes to Apple executives, incorporating their feedback swiftly to enhance core features, showcasing strong product insight, engineering discipline, and agility in a fast-paced environment.",
     icon: "/apple.jpg",
     certificate: "/pdf/Shreeya-Champaneri-iOS-Certificate.pdf"
   },
