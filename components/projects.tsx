@@ -26,7 +26,7 @@ const projects = [
   {
     title: "EchoMind",
     image: "/echomind.png",
-    tech: ["Python", "Gemini", "JS", "Typescript"],
+    tech: ["Python", "Gemini", "React", "Typescript", "Docker"],
     description:
       "An Inside Out movie-inspired voice journal calendar transforming spoken words into AI-generated art and music to aid individuals with emotional expression. \n★ GenAI Genesis 2025",
     link: "https://devpost.com/software/echomind-zgb25h",
