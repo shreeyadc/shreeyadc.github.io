@@ -74,7 +74,7 @@ const projects = [
   {
     title: "CyberStop",
     image: "/cyberstop.png",
-    tech: ["Swift", "Xcode", "Prototyping"],
+    tech: ["Swift", "SwiftUI", "Xcode"],
     description:
       "An interactive app that aims to stop cyberbullying. \n🥇 1st place for UWaterloo's Hi5 Health Informatics Challenge, and turned the idea into an app during a co-op course in partnership with Apple Canada!",
     link: "https://shreeyadc.github.io/hi5-challenge/",
@@ -89,7 +89,7 @@ const projects = [
   {
     title: "EmpowerAbility",
     image: "/empowerability.png",
-    tech: ["Swift", "Xcode"],
+    tech: ["Swift", "SwiftUI", "Xcode"],
     description:
       "Created an EdTech app aiming to help students with learning disabilities. \n🥇 1st place for A Midsummer's Hack",
     link: "https://shreeyac.notion.site/EmpowerAbility-0ea2a5520bbf456c8fa7691ba26ff78c",
