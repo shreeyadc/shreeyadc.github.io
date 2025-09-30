@@ -165,31 +165,24 @@ const EducationCard = ({ item, idx }: { item: any; idx: number }) => (
 
 export const experiences = [
   {
-    role: "Ground Station Software Developer",
-    company: "UW Orbital",
-    time: "March 2025 - Present",
-    description: "Backend Development: Implemented data validation and created CRUD API endpoints for command management using FastAPI, ensuring structured data and improving API reliability. Logging & Monitoring: Developed logging middleware to capture API request details and execution time, enhancing debugging and system monitoring. Testing & Debugging: Ensured backend functionality with 100% test pass rate using Pytest, focusing on data validation and API response accuracy",
-    icon: "/uworbital.jpeg",
-  },
-  {
     role: "Software Developer",
     company: "Reality Labs",
     time: "Feb 2025 - Present",
-    description: "Game Development: Developed a Unity “Roll a Ball” game with C#, implementing custom functionality and UI for an interactive experience. Machine Learning: Built a colour classification neural network in PyTorch with 99.5% accuracy, using synthetic data and Binary Cross-Entropy loss. Backend Development: Designing API key generation and database integration for secure pairing token authentication for the Humanoid Robot Project",
+    description: "Game Development: Developed a Unity game with C#, implementing custom functionality and UI for an interactive experience. Machine Learning: Built a colour classification neural network in PyTorch with 99.5% accuracy, using synthetic data and Binary Cross-Entropy loss. Backend Development: Designing API key generation and database integration for secure pairing token authentication for a teleoperated Humanoid Robot",
     icon: "/realityLabs.jpeg",
   },
   {
     role: "eLearning Developer",
     company: "University of Waterloo",
     time: "Jan 2025 - Apr 2025",
-    description: "Engineered a Node.js backend data automation tool to track 10+ course KPIs, reducing manual analysis time by 60%. Executed cross-platform QA testing and debugging in Agile sprints for Brightspace LMS components, resolving 25+ UI/UX issues across mobile and desktop, enhancing the learning experience for 1000+ students. Deployed 20+ responsive web components and WCAG-compliant learning modules using HTML, CSS, and JavaScript, enhancing accessibility and engagement across courses like Microsoft Azure AI. Co-led an HTML/CSS workshop, teaching web development skills through collaborative coding sessions",
+    description: "Engineered a Node.js backend data automation tool to track 10+ course KPIs, reducing manual analysis time by 60%. Executed cross-platform QA testing and debugging in Agile sprints for Brightspace LMS components, resolving 25+ UI/UX issues across mobile and desktop, enhancing the learning experience for 1000+ students. Deployed 20+ responsive web components and WCAG-compliant learning modules using HTML, CSS, and JavaScript, enhancing accessibility across courses like Microsoft Azure AI. Led an HTML/CSS workshop, teaching web development skills through collaborative coding",
     icon: "/uwaterloo.png",
   },
   {
     role: "Founder & President",
     company: "A.C.E. The Future",
     time: "Jan 2022 - Jul 2024",
-    description: "Established a student-led organization leading emerging technology talks, webinars, blogs, and workshops with guest speakers from Apple and Stanford that impacted youth across 20+ countries. Led and empowered a team of 16 individuals in content writing, event planning, external relations, and graphic design. Featured in Ignite Fair, Canada’s largest youth-run volunteer fair, with 900+ attendees",
+    description: "Established a student-led organization leading emerging technology talks, webinars, blogs, and workshops with guest speakers from Apple and Stanford; impacted youth across 20+ countries. Featured in Ignite Fair, Canada’s largest youth-run volunteer fair, with 900+ attendees",
     icon: "/A.C.E.png",
     link: "https://acethefuture.wixsite.com/acethefuture"
   },
@@ -197,7 +190,7 @@ export const experiences = [
     role: "Podcast Co-host",
     company: "Project Tech Careers",
     time: "Dec 2022 - Aug 2024",
-    description: "Interviewed guest speakers, capturing their journeys and experiences to create compelling podcast episodes released on Spotify; educated and inspired high school students aiming to pursue a career in tech",
+    description: "Interviewed guest speakers, capturing their journeys and experiences to create compelling podcast episodes released on Spotify; inspired high school students aiming to pursue a career in tech",
     icon: "/ptclogo.jpeg",
   },
   {
@@ -211,7 +204,7 @@ export const experiences = [
     role: "iOS Developer",
     company: "Apple Canada x Our Wave Hub",
     time: "Summer 2022",
-    description: "Developed an iOS app in Swift/Xcode to combat cyberbullying, featuring anonymous incident reporting, digital well-being tools, and support resources; earned 1st Place at UWaterloo’s Health Informatics Challenge. Developed the app end-to-end using Agile practices, full SDLC, and mobile lifecycle principles; conducted user research, prototyped features, and iterated UI/UX through stakeholder interviews and usability testing. Pitched prototypes to Apple executives, incorporating their feedback swiftly to enhance core features, showcasing strong product insight, engineering discipline, and agility in a fast-paced environment.",
+    description: "Developed an iOS app in Swift to combat cyberbullying, featuring anonymous incident reporting, digital well-being tools, and support resources; earned 1st Place at UWaterloo’s Health Informatics Challenge. Pitched prototypes to Apple executives, incorporating their feedback swiftly to enhance core features, showcasing strong product insight, engineering discipline, and agility in a fast-paced environment.",
     icon: "/apple.jpg",
     certificate: "/pdf/Shreeya-Champaneri-iOS-Certificate.pdf"
   },
