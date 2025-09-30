@@ -168,7 +168,7 @@ export const experiences = [
     role: "iOS Software Developer",
     company: "Textnow",
     time: "Sep 2025 - Present",
-    description: "",
+    description: "Working with the Upgrades team - currently implementing a loyalty program!",
     icon: "/textnow.png",
   },
   {
