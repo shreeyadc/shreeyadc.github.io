@@ -26,7 +26,7 @@ const projects = [
   {
     title: "EchoMind",
     image: "/echomind.png",
-    tech: ["Python", "Gemini", "React", "Typescript", "Docker"],
+    tech: ["Python", "Gemini", "React", "Typescript"],
     description:
       "An Inside Out movie-inspired voice journal calendar transforming spoken words into AI-generated art and music to aid individuals with emotional expression. \n★ GenAI Genesis 2025",
     link: "https://devpost.com/software/echomind-zgb25h",
@@ -61,7 +61,7 @@ const projects = [
     image: "/library-system.png",
     tech: ["C++"],
     description:
-      "A program simulating a real Library System that allows managing a collection of books and library users with the functionality to add, remove, and advanced search, along with storing and displaying user information. \n★ SYDE 121 final project",
+      "A library management system with features to add/remove books, perform advanced searches, and manage user information. \n★ SYDE 121 final project",
     link: "",
     github: "https://github.com/19prishpat/Library-System-Store/",
     images: [""],
@@ -74,9 +74,9 @@ const projects = [
   {
     title: "CyberStop",
     image: "/cyberstop.png",
-    tech: ["Swift", "SwiftUI", "Xcode"],
+    tech: ["Swift", "Xcode"],
     description:
-      "An interactive app that aims to stop cyberbullying. \n🥇 1st place for UWaterloo's Hi5 Health Informatics Challenge, and turned the idea into an app during a co-op course in partnership with Apple Canada!",
+      "An interactive app that aims to stop cyberbullying. \n🥇 1st place for UWaterloo's Hi5 Health Informatics Challenge \n💫 Turned the idea into an iOS app through a co-op course partnered with Apple Canada",
     link: "https://shreeyadc.github.io/hi5-challenge/",
     github: "https://github.com/shreeyadc/Cyber-Stop",
     images: ["/cyberstopapp.png"],
@@ -89,9 +89,9 @@ const projects = [
   {
     title: "EmpowerAbility",
     image: "/empowerability.png",
-    tech: ["Swift", "SwiftUI", "Xcode"],
+    tech: ["Swift", "Xcode"],
     description:
-      "Created an EdTech app aiming to help students with learning disabilities. \n🥇 1st place for A Midsummer's Hack",
+      "An EdTech app to help students with learning disabilities. \n🥇 1st place for A Midsummer's Hack",
     link: "https://shreeyac.notion.site/EmpowerAbility-0ea2a5520bbf456c8fa7691ba26ff78c",
     github: "https://github.com/shreeyadc/empowerability",
     images: ["/empowerapp.png"],
@@ -102,11 +102,11 @@ const projects = [
     ],
   },
   {
-    title: "\"Mario Launcher\" Game",
+    title: "\"Mario Launcher\"",
     image: "/mario.png",
     tech: ["HTML", "CSS", "Javascript", "Phaser"],
     description:
-      "A twist to the game Super Mario, where Mario must collect and launch turtle shells at flying opponents to score points! \n★ ICS2O Summative Project",
+      "A fun twist to the game Super Mario \n★ ICS2O final project",
     link: "https://shreeyadc.github.io/mario-launcher/",
     github: "https://github.com/shreeyadc/mario-launcher-game",
     images: ["/mario-prj.png"],
@@ -136,7 +136,7 @@ const projects = [
     image: "/compstore.png",
     tech: ["Java", "Swing"],
     description:
-      "A laptop store GUI app that matches users with curated recommendations through a survey feature and allows them to add laptops to their cart for purchase. \n★ ICS3U project",
+      "A laptop store GUI app that matches users with curated recommendations through a survey and a cart feature for purchases. \n★ ICS3U project",
     link: "",
     github: "https://github.com/shreeyadc/computer-store",
     images: ["/compstore-prj.png"],
@@ -150,7 +150,7 @@ const projects = [
     image: "/charizzmatech.png",
     tech: ["Python", "Cohere", "Taipy"],
     description:
-      "A personal assistant that helps users improve communication, confidence and charisma by providing instant, personalized feedback on voice prompts. \n★ Hack the North 2023",
+      "A personal assistant that helps users improve communication, confidence and charisma by providing instant personalized feedback on voice prompts. \n★ Hack the North 2023",
     link: "https://devpost.com/software/rizz-bot",
     github: "",
     images: ["/rizzbot.png"],
