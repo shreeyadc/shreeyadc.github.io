@@ -165,6 +165,13 @@ const EducationCard = ({ item, idx }: { item: any; idx: number }) => (
 
 export const experiences = [
   {
+    role: "iOS Software Developer",
+    company: "Textnow",
+    time: "Sep 2025 - Present",
+    description: "",
+    icon: "/textnow.png",
+  },
+  {
     role: "Software Developer",
     company: "Reality Labs",
     time: "Feb 2025 - Present",
