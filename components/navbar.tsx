@@ -52,7 +52,7 @@ export default function Navbar() {
 
         <div className="absolute left-2 flex items-center justify-center">
           <Image
-            src="/googleS.png"
+            src="/favicon.ico"
             alt="Logo"
             width={31}
             height={31}

@@ -110,7 +110,7 @@ const EducationSection = () => {
   );
 };
 
-const googleColors = ["#4285F4", "#DB4437", "#F4B400", "#0F9D58"];
+
 
 const EducationCard = ({ item, idx }: { item: any; idx: number }) => (
   <motion.div
@@ -134,52 +134,46 @@ const EducationCard = ({ item, idx }: { item: any; idx: number }) => (
       </p>
       <p className="mt-2 text-gray-700">{item.description}</p>
       <div className="mt-4 flex flex-wrap gap-2 justify-center sm:justify-start">
-        {item.skills.map((skill: string, i: number) => {
-          const hoverColor = googleColors[i % googleColors.length];
-          const hoverTextColor = hoverColor === "#F4B400" ? "black" : "white";
-
-          return (
-            <span
-              key={i}
-              className="bg-gray-300 text-gray-900 text-xs px-3 py-1 rounded-full transition-all duration-300 cursor-default"
-              style={{
-                transition: "all 0.3s ease",
-              }}
-              onMouseEnter={(e) => {
-                e.currentTarget.style.backgroundColor = hoverColor;
-                e.currentTarget.style.color = hoverTextColor;
-              }}
-              onMouseLeave={(e) => {
-                e.currentTarget.style.backgroundColor = "#d1d5db";
-                e.currentTarget.style.color = "#111827";
-              }}
-            >
-              {skill}
-            </span>
-          );
-        })}
+        {item.skills.map((skill: string, i: number) => (
+          <span
+            key={i}
+            className="bg-gray-300 text-gray-900 text-xs px-3 py-1 rounded-full transition-all duration-300 cursor-default"
+            style={{ transition: "all 0.3s ease" }}
+            onMouseEnter={(e) => {
+              e.currentTarget.style.backgroundColor = "#111827"; // dark hover
+              e.currentTarget.style.color = "#f5f5f5"; // light text
+            }}
+            onMouseLeave={(e) => {
+              e.currentTarget.style.backgroundColor = "#d1d5db"; // gray
+              e.currentTarget.style.color = "#111827"; // dark text
+            }}
+          >
+            {skill}
+          </span>
+        ))}
       </div>
     </div>
   </motion.div>
 );
 
+
 export const experiences = [
   {
-    role: "iOS Software Developer",
+    role: "iOS Software Engineer",
     company: "Textnow",
-    time: "Sep 2025 - Present",
-    description: "Working with the Upgrades team - currently implementing a loyalty program!",
+    time: "Sep 2025 - Dec 2025",
+    description: "Worked with the Upgrades team in the Revenue Pod to implement a Loyalty Program!",
     icon: "/textnow.png",
   },
   {
-    role: "Software Developer",
+    role: "Software Engineer",
     company: "Reality Labs",
     time: "Feb 2025 - Present",
-    description: "Game Development: Developed a Unity game with C#, implementing custom functionality and UI for an interactive experience. Machine Learning: Built a colour classification neural network in PyTorch with 99.5% accuracy, using synthetic data and Binary Cross-Entropy loss. Backend Development: Designing API key generation and database integration for secure pairing token authentication for a teleoperated Humanoid Robot",
+    description: "Machine Learning: Built a colour classification neural network in PyTorch with 99.5% accuracy, using synthetic data and Binary Cross-Entropy loss. Game Development: Developed a Unity game with C#, implementing custom functionality and UI for an interactive experience. Backend Development: Designing API key generation and database integration for secure pairing token authentication for a teleoperated Humanoid Robot",
     icon: "/realityLabs.jpeg",
   },
   {
-    role: "eLearning Developer",
+    role: "eLearning Software Developer",
     company: "University of Waterloo",
     time: "Jan 2025 - Apr 2025",
     description: "Engineered a Node.js backend data automation tool to track 10+ course KPIs, reducing manual analysis time by 60%. Executed cross-platform QA testing and debugging in Agile sprints for Brightspace LMS components, resolving 25+ UI/UX issues across mobile and desktop, enhancing the learning experience for 1000+ students. Deployed 20+ responsive web components and WCAG-compliant learning modules using HTML, CSS, and JavaScript, enhancing accessibility across courses like Microsoft Azure AI. Led an HTML/CSS workshop, teaching web development skills through collaborative coding",
@@ -223,7 +217,7 @@ const educationData = [
     institution: "University of Waterloo",
     year: "2025–2029 (Expected)",
     description: "President's Scholarship of Distinction",
-    skills: ["Digital Computation (C++)", "SOLIDWORKS", "Data structures & Algorithms", "Digital Systems", "Human-Centered Design"],
+    skills: ["Digital Computation (C++)", "Data structures & Algorithms", "Digital Systems", "Human-Centered Design", "SOLIDWORKS"],
     image: "/uwaterloo.png",
   },
 ];

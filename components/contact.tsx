@@ -4,7 +4,7 @@ import dynamic from "next/dynamic";
 import { Mail, Linkedin } from "lucide-react";
 import Link from "next/link";
 
-const ParticleBackground = dynamic(() => import("./googleParticles"), { ssr: false });
+const ParticleBackground = dynamic(() => import("./particles"), { ssr: false });
 
 export default function Contact() {
   return (
@@ -19,14 +19,14 @@ export default function Contact() {
 
         <div className="flex flex-col md:flex-row gap-4 md:gap-6 items-center md:items-start justify-center md:justify-start">
           <Link
-            href="mailto:sdchampaneri@uwaterloo.ca"
+            href="mailto:shreeya.champaneri@uwaterloo.ca"
             target="_blank"
             className="group flex items-center gap-2 text-sm font-medium py-3 px-6 rounded-xl transition-all duration-300
               bg-[#1a1a1a] border border-white/50 
               hover:scale-110 hover:shadow-[0_0_25px_5px_rgba(66,133,244,0.4)]"
           >
             <Mail className="w-5 h-5 md:w-6 md:h-6 text-[#4285F4]" />
-            sdchampaneri@uwaterloo.ca
+            shreeya.champaneri@uwaterloo.ca
           </Link>
 
           <Link
