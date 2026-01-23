@@ -5,8 +5,9 @@ import * as THREE from "three";
 
 const ParticleBackground = () => {
   useEffect(() => {
+    
     const canvas = document.getElementById("particleCanvas") as HTMLCanvasElement;
-    const ctx = canvas.getContext("2d");
+    const ctx = canvas.getContext("2d")!;
     if (!ctx) return;
 
     const particles: Particle[] = [];
