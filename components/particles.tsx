@@ -31,7 +31,7 @@ const ParticleBackground = () => {
       mouse.y = e.clientY - rect.top;
     });
 
-    const colors = ["#ffffff", "#ff2b2b"]; // red & white
+    const colors = ["#ffffff", "#CC0000"]; // white & red
 
     class Particle {
       pos: THREE.Vector3;
