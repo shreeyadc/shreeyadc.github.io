@@ -9,9 +9,6 @@ const ExperienceSection = () => {
       className="w-full px-4 sm:px-8 md:px-16 xl:px-28 py-24 font-sans text-black">
       <div
         className="w-full rounded-3xl bg-white shadow-[0_10px_30px_rgba(0,0,0,0.1)] transition-all duration-300 hover:scale-101 transition-all duration-300"
-        style={{
-          border: '6px solid #CC0000'
-        }}
       >
         <div className="p-6 sm:p-10">
           <h1 className="text-5xl font-semibold mb-14 text-center text-gray-900 tracking-tight">
@@ -85,9 +82,6 @@ const EducationSection = () => {
     >
       <div
         className="w-full rounded-3xl bg-white shadow-[0_10px_30px_rgba(0,0,0,0.1)] hover:scale-101 transition-all duration-300"
-        style={{
-          border: '6px solid #CC0000'
-        }}
       >
         <div className="p-6 sm:p-10">
           <h2 className="text-5xl font-semibold mb-14 text-center text-gray-900 tracking-tight">
