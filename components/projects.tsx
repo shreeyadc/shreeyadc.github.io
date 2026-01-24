@@ -7,6 +7,23 @@ import { motion } from "framer-motion";
 
 const projects = [
   {
+    title: "Nacho Average Cart",
+    image: "/nachoaveragecart.png",
+    tech: ["React", "Three.js", "Node.js", "Tailwind CSS", "Gemini", "MongoDB"],
+    description:
+      "A full-stack grocery platform featuring text/image search, smart shopping lists, and AI-driven meal planning with built-in nutrition insights. \n★ SpurHacks 2025",
+    link: "https://devpost.com/software/nachoaveragecart",
+    github: "",
+    images: ["/nachoaveragecart-prj.png"],
+    keyFeatures: [
+      "Text & image-based grocery search",
+      "Real-time price matching across 15+ stores",
+      "Smart shopping cart & list management",
+      "AI-powered recipe generator and meal suggestions with swipe UI",
+      "Personalized, budget-friendly grocery planning"
+    ],
+  },
+  {
     title: "NourishNet",
     image: "/nourishnet.png",
     tech: ["Python", "Flask", "MongoDB"],
