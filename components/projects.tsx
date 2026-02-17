@@ -7,6 +7,23 @@ import { motion } from "framer-motion";
 
 const projects = [
   {
+    title: "Cough2Care",
+    image: "/cough2care.png",
+    tech: ["React", "Next.js", "Python", "Pytorch"],
+    description:
+      "An AI-powered tool that transforms any device microphone into a preliminary respiratory risk screening system using cough sound analysis. \n🏅 CXC AI Hackathon 2026",
+    link: "https://devpost.com/software/cough2care",
+    github: "https://github.com/shreeyadc/cough2care",
+    images: ["/cough2care-prj.png"],
+    keyFeatures: [
+      "AI-based acoustic analysis of cough recordings for respiratory risk detection",
+      "Background noise reduction for accurate and reliable classification",
+      "Generates respiratory risk scores with automated high-risk flagging",
+      "Supports healthcare triage and patient prioritization workflows",
+      "Expands access to early screening in low-resource and remote settings"
+    ],
+  },
+  {
     title: "Nacho Average Cart",
     image: "/nachoaveragecart.png",
     tech: ["React", "Three.js", "Node.js", "Tailwind CSS", "Gemini", "MongoDB"],
