@@ -18,7 +18,8 @@ const projects = [
     keyFeatures: [
       "AI-based acoustic analysis of cough recordings for respiratory risk detection",
       "Background noise reduction for accurate and reliable classification",
-      "Generates respiratory risk scores with automated high-risk flagging",
+      "Generates cough spectrograms for advanced audio pattern visualization and modeling",
+      "Creates respiratory risk scores with automated high-risk flagging",
       "Supports healthcare triage and patient prioritization workflows",
       "Expands access to early screening in low-resource and remote settings"
     ],
