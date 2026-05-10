@@ -44,7 +44,7 @@ const Homepage = () => {
           transition={{ duration: 1, ease: "easeOut" }}
         >
           <img
-            src="/shreeya.jpg"
+            src="/shreeya.JPEG"
             alt="Profile Picture"
             className="profile-image w-72 h-72 rounded-full border-8 border-gray-600 shadow-xl transform transition duration-500 hover:scale-110 cursor-pointer object-cover cursor-heart"
           />
