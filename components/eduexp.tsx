@@ -147,10 +147,17 @@ const EducationCard = ({ item, idx }: { item: any; idx: number }) => (
 
 export const experiences = [
   {
+    role: "Software Engineer",
+    company: "StackAdapt",
+    time: "May 2026 - Present",
+    description: "Incoming Summer 2026",
+    icon: "/stackadapt.png",
+  },
+  {
     role: "iOS Software Engineer",
-    company: "Textnow",
+    company: "TextNow",
     time: "Sep 2025 - Dec 2025",
-    description: "Worked with the Upgrades team in the Revenue Pod to implement a Loyalty Program!",
+    description: "Shipped core loyalty program features driving 30,000+ daily opt-ins and +25% IAP revenue. Owned customer-facing mobile features used by millions of users, supporting 10,000+ daily transactions.",
     icon: "/textnow.png",
   },
   {
@@ -164,14 +171,14 @@ export const experiences = [
     role: "eLearning Software Developer",
     company: "University of Waterloo",
     time: "Jan 2025 - Apr 2025",
-    description: "Engineered a Node.js backend data automation tool to track 10+ course KPIs, reducing manual analysis time by 60%. Executed cross-platform QA testing and debugging in Agile sprints for Brightspace LMS components, resolving 25+ UI/UX issues across mobile and desktop, enhancing the learning experience for 1000+ students. Deployed 20+ responsive web components and WCAG-compliant learning modules using HTML, CSS, and JavaScript, enhancing accessibility across courses like Microsoft Azure AI. Led an HTML/CSS workshop, teaching web development skills through collaborative coding",
+    description: "Engineered a Node.js automation tool tracking 10+ KPIs across 100+ modules, reducing manual analysis time by 60%. Led cross-platform QA sprints to resolve critical UI/UX issues, improving LMS usability for 1,000+ students. Deployed 20+ WCAG-compliant web learning modules using HTML, CSS, and JavaScript, increasing accessibility across courses like Microsoft Azure AI",
     icon: "/uwaterloo.png",
   },
   {
     role: "Founder & President",
     company: "A.C.E. The Future",
     time: "Jan 2022 - Jul 2024",
-    description: "Established a student-led organization leading emerging technology talks, webinars, blogs, and workshops with guest speakers from Apple and Stanford; impacted youth across 20+ countries. Featured in Ignite Fair, Canada’s largest youth-run volunteer fair, with 900+ attendees",
+    description: "Established a student-led organization leading emerging technology webinars, blogs, and workshops with guest speakers from Apple and Stanford; reached youth across 20+ countries. Featured in Ignite Fair, Canada’s largest youth-run volunteer fair, with 900+ attendees",
     icon: "/A.C.E.png",
     link: "https://acethefuture.wixsite.com/acethefuture"
   },
