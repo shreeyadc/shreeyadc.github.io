@@ -157,7 +157,7 @@ export const experiences = [
     role: "iOS Software Engineer",
     company: "TextNow",
     time: "Sep 2025 - Dec 2025",
-    description: "Shipped core loyalty program features driving 30,000+ daily opt-ins and +25% IAP revenue. Owned customer-facing mobile features used by millions of users, supporting 10,000+ daily transactions.",
+    description: "Shipped core loyalty program features driving 30,000+ daily opt-ins and +25% IAP revenue. Owned customer-facing mobile features used by millions of users, supporting 10,000+ daily transactions",
     icon: "/textnow.png",
   },
   {
@@ -178,7 +178,7 @@ export const experiences = [
     role: "Founder & President",
     company: "A.C.E. The Future",
     time: "Jan 2022 - Jul 2024",
-    description: "Established a student-led organization leading emerging technology webinars, blogs, and workshops with guest speakers from Apple and Stanford; reached youth across 20+ countries. Featured in Ignite Fair, Canada’s largest youth-run volunteer fair, with 900+ attendees",
+    description: "Established a student-led organization leading emerging technology webinars, blogs, and workshops with guest speakers from Apple and Stanford. Reached youth across 20+ countries and featured in Ignite Fair, Canada’s largest youth-run volunteer fair with 900+ attendees",
     icon: "/A.C.E.png",
     link: "https://acethefuture.wixsite.com/acethefuture"
   },
