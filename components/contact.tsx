@@ -41,7 +41,7 @@ export default function Contact() {
           </Link>
         </div>
 
-        <p className="text-gray-400 text-sm md:text-base mt-8">&copy; 2025 <span className="text-white">Shreeya C.</span></p>
+        <p className="text-gray-400 text-sm md:text-base mt-8">&copy; 2026 <span className="text-white">Shreeya C.</span></p>
       </div>
     </section>
   );
