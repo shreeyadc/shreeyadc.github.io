@@ -200,7 +200,7 @@ export const experiences = [
     role: "iOS Developer",
     company: "Apple Canada x Our Wave Hub",
     time: "Summer 2022",
-    description: "Developed an iOS app in Swift to combat cyberbullying, featuring anonymous incident reporting, digital well-being tools, and support resources; earned 1st Place at UWaterloo’s Health Informatics Challenge. Pitched prototypes to Apple executives, incorporating their feedback swiftly to enhance core features, showcasing strong product insight, engineering discipline, and agility in a fast-paced environment.",
+    description: "Developed an iOS app in Swift to combat cyberbullying, featuring anonymous incident reporting, digital well-being tools, and support resources; earned 1st Place at UWaterloo’s Health Informatics Challenge. Presented app to Apple executives and rapidly integrated feedback to elevate core features, recognized for creativity and feasibility",
     icon: "/apple.jpg",
     certificate: "/pdf/Shreeya-Champaneri-iOS-Certificate.pdf"
   },
